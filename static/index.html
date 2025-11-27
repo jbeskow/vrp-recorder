@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speech Recorder</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+<h2>Speech Recorder</h2>
+
+<div>
+  <p id="prompt">Loading prompt...</p>
+</div>
+
+<button id="recordBtn">Record</button>
+<button id="stopBtn" disabled>Stop</button>
+<button id="playBtn" disabled>Play last</button>
+
+<!--
+<h3>Histograms (last recording)</h3>
+<div id="f0_plot" style="width:400px;height:300px;"></div> 
+<div id="energy_plot" style="width:400px;height:300px;"></div>
+-->
+<h3>VRP (last recording=red)</h3>
+<div id="vrp_plot" style="width:600px;height:450px;"></div>
+
+<script src="static/script.js"></script>
+</body>
+</html>
